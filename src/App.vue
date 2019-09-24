@@ -40,6 +40,7 @@
     <v-navigation-drawer
       v-model="drawer"
       permanent
+      class="sidebar"
     >
       <v-list-item>
         <v-list-item-title>VMWARE</v-list-item-title>
@@ -89,10 +90,14 @@
 <style scoped>
 
   .view {
-    position: fixed;
-    left: 135px;
-    right: 0;
+    position: relative;
     top: 64px;
+    left: 67px;
+    background: white;
+  }
+
+  .sidebar {
+    position: fixed;
   }
 
   .v-navigation-drawer {
@@ -121,12 +126,17 @@
     background: #464547 none repeat scroll 0 0 !important;  
   }
 
+  .v-navigation-drawer__content {
+    overflow: hidden !important; 
+  }
+
   .v-toolbar {
     background-color: #717074 !important;
     background: transparent;
     position: fixed;
     left: 135px;
     right: 0;
+    z-index: 10;
   }
 
   a {
@@ -166,5 +176,5 @@
   .v-input__slot {
     height: 1em !important;
   }
-  
+
 </style>
