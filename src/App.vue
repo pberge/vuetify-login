@@ -35,11 +35,8 @@
       >
         <v-btn text small action="http://www.vmware.com/search.html"><v-icon right>fa-search</v-icon></v-btn>
       </v-text-field>
-     
-
-      <!-- <div class="flex-grow-1"></div> -->
     </v-toolbar>
-
+    <router-view class="view"/>
     <v-navigation-drawer
       v-model="drawer"
       permanent
@@ -62,7 +59,8 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
+    
+    
     
   </v-app>
 </template>
@@ -89,6 +87,14 @@
 </script>
 
 <style scoped>
+
+  .view {
+    position: fixed;
+    left: 135px;
+    right: 0;
+    top: 64px;
+  }
+
   .v-navigation-drawer {
     width: 135px !important;
   }
@@ -151,6 +157,14 @@
   .v-list {
     background: #464547 !important;
   }
+  
+  .v-input {
+    flex: none;
+    padding-top: 1.9em !important;
+  }
 
+  .v-input__slot {
+    height: 1em !important;
+  }
   
 </style>
