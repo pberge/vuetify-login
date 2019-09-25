@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="login">
         <v-container fluid fill-height class="loginOverlay">
           <v-layout flex align-center justify-center>
             <v-flex xs12 sm4>
@@ -65,6 +65,11 @@ export default {
 </script>
 
 <style scoped>
+.login {
+    height: 100vh;
+    background-image: url('../assets/background-image.jpg');
+}
+
 h4 {
     font-size: 1em !important;
     padding: 1em;
