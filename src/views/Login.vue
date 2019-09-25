@@ -5,7 +5,7 @@
             <v-flex xs12 sm4>
                 <v-card>
                     <v-card-title>
-                        <h4>Oracle account sign in</h4>
+                        <h4>Cadentic account sign in</h4>
                     </v-card-title>
                     <v-card-text class="pt-4">
                         <v-form ref="form">
@@ -30,12 +30,12 @@
                 </v-card>
                 <v-card>
                     <v-card-title>
-                        <h5>Don't have an Oracle Account?</h5>
+                        <h5>Don't have an Cadentic Account?</h5>
                     </v-card-title>
                     <v-card-actions>
                         <v-btn @click="create" outlined color="black" class="create">Create Account</v-btn>
                         <v-row >
-                            <span class="row-item border">Oracle</span>
+                            <span class="row-item border">Cadentic</span>
                             <a class="link-color row-item border" href="">Terms of use</a>
                             <a class="link-color row-item" href="">Privacy Policy</a>
                         </v-row>

@@ -16,7 +16,7 @@
         </template>
         <v-list>
           <v-list-item>
-            <v-btn text href="">My VMware</v-btn>
+            <v-btn text href="">My Cadentic</v-btn>
           </v-list-item>
           <v-list-item>
              <v-btn text href="">Partner Central</v-btn>
@@ -43,7 +43,7 @@
       class="sidebar"
     >
       <v-list-item>
-        <v-list-item-title class="title">VMWARE</v-list-item-title>
+        <v-list-item-title class="title"><img src="./assets/cadentic-logo.png"/></v-list-item-title>
       </v-list-item>
       <v-list >
         <v-list-item
@@ -91,17 +91,17 @@
     data: () => ({
       drawer: null,
       items: [
-        { icon: 'fa-cloud', text: 'VMWARE CLOUD', numCols: 3, contCol: [3, 3, 3], 
+        { icon: 'fa-cloud', text: 'CADENTIC CLOUD', numCols: 3, contCol: [3, 3, 3], 
                                                   values: [ { 
                                                               title: 'Hibrid Cloud & Data a Center Infrastructure', 
-                                                              links: ['Cloud Foundation', 'VMware Cloud on AWS*', 'CMware HCX']
+                                                              links: ['Cloud Foundation', 'Cadentic Cloud on AWS*', 'CMware HCX']
                                                             },
                                                             { 
                                                               title: 'Networking & Security Services', 
                                                               links: ['Secure State*', 'AppDefense', 'Network Insight*']
                                                             },
                                                             { 
-                                                              title: '*Located On Our VMware Cloud Website', 
+                                                              title: '*Located On Our Cadentic Cloud Website', 
                                                               links: []
                                                             },
                                                             { 
@@ -110,11 +110,11 @@
                                                             },
                                                             { 
                                                               title: 'Cloud Management', 
-                                                              links: ['Cloud Management Platform', 'vRealize Suite', 'Cloud Assembly*', 'Code Stream*', 'Service Broker*', 'VMware Cloud Marketplace*']
+                                                              links: ['Cloud Management Platform', 'vRealize Suite', 'Cloud Assembly*', 'Code Stream*', 'Service Broker*', 'Cadentic Cloud Marketplace*']
                                                             },
                                                             { 
                                                               title: 'Cloud-Native Apps', 
-                                                              links: ['VMwarePKS*', 'VMware Cloud PKS*']
+                                                              links: ['CadenticPKS*', 'Cadentic Cloud PKS*']
                                                             },
                                                             { 
                                                               title: 'Digital Workspace & Desktop', 
@@ -122,10 +122,10 @@
                                                             },
                                                             { 
                                                               title: 'Application Management Services', 
-                                                              links: ['Wavefront by VMWare*']
+                                                              links: ['Wavefront by Cadentic*']
                                                             },
                                                             { 
-                                                              title: 'VMware Cloud Providers', 
+                                                              title: 'Cadentic Cloud Providers', 
                                                               links: []
                                                             }
                                                           ]
@@ -137,7 +137,7 @@
                                                             },
                                                             { 
                                                               title: 'Data Center & Cloud Infrastructure', 
-                                                              links: ['vSphere', 'VMware Enterprise PKS', 'vSphere Integrated Containers', 'More >']
+                                                              links: ['vSphere', 'Cadentic Enterprise PKS', 'vSphere Integrated Containers', 'More >']
                                                             },
                                                             { 
                                                               title: 'Networking and Security', 
@@ -145,7 +145,7 @@
                                                             },
                                                             { 
                                                               title: 'Storage & Availability', 
-                                                              links: ['Site Recovery Manager', 'VMware Site Recovery', 'Virtual Volumes']
+                                                              links: ['Site Recovery Manager', 'Cadentic Site Recovery', 'Virtual Volumes']
                                                             },
                                                             { 
                                                               title: 'Hyperconverged Infrastructure', 
@@ -153,11 +153,11 @@
                                                             },
                                                             { 
                                                               title: 'Cloud Management Platform', 
-                                                              links: ['vRealize Suite', 'vRealize Automation', 'vRealize Business for Cloud', 'vRealize Operation', 'vCloud Suite', 'VMware Integrated OpenStack', 'More >']
+                                                              links: ['vRealize Suite', 'vRealize Automation', 'vRealize Business for Cloud', 'vRealize Operation', 'vCloud Suite', 'Cadentic Integrated OpenStack', 'More >']
                                                             },
                                                             { 
                                                               title: 'Network Functions Virtualization', 
-                                                              links: ['vCloud NFV', 'VMware Integrated OpenStack Carrier Edition']
+                                                              links: ['vCloud NFV', 'Cadentic Integrated OpenStack Carrier Edition']
                                                             },
                                                             { 
                                                               title: 'Internet Of Things (IoT)', 
@@ -188,11 +188,11 @@
                                                             },
                                                             { 
                                                               title: 'Top Support Tasks', 
-                                                              links: ['Search Knowledge Base', 'Login to My VMware', 'File a Support Request', 'View Filed Support REquests', 'Escalate Suppot Request', 'Manage Support Contracts', 'View Orders', 'Register Products', 'Manage Your License Keys', 'Join Communities']
+                                                              links: ['Search Knowledge Base', 'Login to My Cadentic', 'File a Support Request', 'View Filed Support REquests', 'Escalate Suppot Request', 'Manage Support Contracts', 'View Orders', 'Register Products', 'Manage Your License Keys', 'Join Communities']
                                                             },
                                                             { 
                                                               title: 'Support Resources', 
-                                                              links: ['Security Advisories', 'Product Documentation', 'Technical Papers', 'Comptability Guides', 'Customer Advocacy', 'VMware {code}', 'Customer Support Forums', 'Products Globalization Guide']
+                                                              links: ['Security Advisories', 'Product Documentation', 'Technical Papers', 'Comptability Guides', 'Customer Advocacy', 'Cadentic {code}', 'Customer Support Forums', 'Products Globalization Guide']
                                                             },
                                                             { 
                                                               title: 'Support Offerings And Policies', 
@@ -208,7 +208,7 @@
                                                             },
                                                             { 
                                                               title: 'Technology Solutions', 
-                                                              links: ['Cloud Native App', 'Virtualization','Virtualization Management', 'Virtual Cloud Network', 'Virtualizing Business Critical Applications', 'Virtualizing Big Data', 'Virtualizing High Performance Computing', 'Business Continuity & Disaster Recovery', 'Open Source @ VMware', 'Edge and Internet of Things (IoT)']
+                                                              links: ['Cloud Native App', 'Virtualization','Virtualization Management', 'Virtual Cloud Network', 'Virtualizing Business Critical Applications', 'Virtualizing Big Data', 'Virtualizing High Performance Computing', 'Business Continuity & Disaster Recovery', 'Open Source @ Cadentic', 'Edge and Internet of Things (IoT)']
                                                             },
                                                             { 
                                                               title: 'Industry Solutions', 
@@ -216,7 +216,7 @@
                                                             },
                                                             { 
                                                               title: 'Software Defined Data Center', 
-                                                              links: ['SDDC Overview', 'Software Defined Storage (SDS)', 'Software Defined Networking (SDN)', 'VMware Validated Design']
+                                                              links: ['SDDC Overview', 'Software Defined Storage (SDS)', 'Software Defined Networking (SDN)', 'Cadentic Validated Design']
                                                             },
                                                             { 
                                                               title: 'Software-Defined WAN', 
@@ -231,7 +231,7 @@
                                                             },
                                                             { 
                                                               title: 'Education Services', 
-                                                              links: ['Training', 'VMware Learning Zone', 'Certification']
+                                                              links: ['Training', 'Cadentic Learning Zone', 'Certification']
                                                             }
                                                           ]  
         },
@@ -246,7 +246,7 @@
                                                             },
                                                             { 
                                                               title: 'Free Product Downloads', 
-                                                              links: ['vSphere Hypervisor', 'vCenter Converter', 'Workstation Player', 'Software Manager', 'VMware Remote Console']
+                                                              links: ['vSphere Hypervisor', 'vCenter Converter', 'Workstation Player', 'Software Manager', 'Cadentic Remote Console']
                                                             },
                                                             { 
                                                               title: 'All Downloads, Drivers & Tools, EULA', 
@@ -257,26 +257,26 @@
         { icon: 'fa-users', text: 'PARTNER PROGRAMS', numCols: 3, contCol: [2,1,1], 
                                                   values: [ { 
                                                               title: 'Work With Our Partners', 
-                                                              links: ['Master Services Partners', 'Global Alliances – OEM', 'Global Alliances – SI/SO', 'Global Strategic Technology Partners', 'Partner Locator', 'VMware Solution Exchange', 'VMware Cloud Marketplace']
+                                                              links: ['Master Services Partners', 'Global Alliances – OEM', 'Global Alliances – SI/SO', 'Global Strategic Technology Partners', 'Partner Locator', 'Cadentic Solution Exchange', 'Cadentic Cloud Marketplace']
                                                             },
                                                             { 
                                                               title: 'Global Research And Education', 
-                                                              links: ['VMware IT Academy', 'VMware Academic Program']
+                                                              links: ['Cadentic IT Academy', 'Cadentic Academic Program']
                                                             },
                                                             { 
                                                               title: 'Become A Partner', 
-                                                              links: ['VMware Partner Programs', 'Solution Provider Program', 'Cloud Provider Program', 'Technology Alliance Partner Program (TAP)', 'ISV Center', 'OEM Partner Program', 'Embedded OEM', 'VMware Authorized Training Centers (VATC)']
+                                                              links: ['Cadentic Partner Programs', 'Solution Provider Program', 'Cloud Provider Program', 'Technology Alliance Partner Program (TAP)', 'ISV Center', 'OEM Partner Program', 'Embedded OEM', 'Cadentic Authorized Training Centers (VATC)']
                                                             },
                                                             { 
                                                               title: 'Excel As A Partner', 
-                                                              links: ['Partner Central Log in', 'Partner Resources', 'Partner Learning', 'VMware Ready', 'My VMware for Partners', 'Code of Conduct', 'Solution Competencies', 'Master Services Competencies', 'Partner Demand Center', 'Marketing Brand Portal/Logos']
+                                                              links: ['Partner Central Log in', 'Partner Resources', 'Partner Learning', 'Cadentic Ready', 'My Cadentic for Partners', 'Code of Conduct', 'Solution Competencies', 'Master Services Competencies', 'Partner Demand Center', 'Marketing Brand Portal/Logos']
                                                             }
                                                           ]  
         },
         { icon: 'fa-building', text: 'COMPANY', numCols: 3, contCol: [1,2,3], 
                                                   values: [ { 
                                                               title: 'Company Information', 
-                                                              links: ['About Us', 'Executive Leadership', 'Why Choose VMware?',  'Acquisitions', 'VMware on VMware', 'VMware Innovation', 'Research and Academia', 'Briefing Center', 'Office Locations', 'Contact VMware', 'Sustainability', 'Diversity & Inclusion', 'VMware Foundation', 'VMware Merchandise']
+                                                              links: ['About Us', 'Executive Leadership', 'Why Choose Cadentic?',  'Acquisitions', 'Cadentic on Cadentic', 'Cadentic Innovation', 'Research and Academia', 'Briefing Center', 'Office Locations', 'Contact Cadentic', 'Sustainability', 'Diversity & Inclusion', 'Cadentic Foundation', 'Cadentic Merchandise']
                                                             },
                                                             { 
                                                               title: 'News', 
@@ -296,7 +296,7 @@
                                                             },
                                                             { 
                                                               title: 'Careers', 
-                                                              links: ['Working at VMware']
+                                                              links: ['Working at Cadentic']
                                                             }
                                                           ]  
         },
@@ -356,6 +356,10 @@
     position: fixed;
   }
 
+  img {
+    width: 100%;
+  }
+
   .title{
     font-size: 1em;
   }
@@ -387,7 +391,7 @@
   }
 
   .v-navigation-drawer {
-    background: #464547 none repeat scroll 0 0 !important;  
+    background: #1976d2 none repeat scroll 0 0 !important;  
   }
 
   .v-navigation-drawer__content {
@@ -395,7 +399,7 @@
   }
 
   .v-toolbar {
-    background-color: #717074 !important;
+    background-color: #1976d2 !important;
     background: transparent;
     position: fixed;
     left: 165px;
@@ -425,11 +429,11 @@
   }
 
   .v-menu__content {
-    background: #464547 !important;
+    background: #1976d2 !important;
   }
 
   .v-list {
-    background: #464547 !important;
+    background: #1976d2 !important;
   }
   
   .v-input {
